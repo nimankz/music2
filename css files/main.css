@@ -4,6 +4,28 @@ body{
     background-color: #b5e2de;
 
 }
+.main-links{
+    display:flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFE4F7;
+    border-radius: 25px;
+    padding: 10em;
+    margin: 5em;
+    outline: solid #334B49 4px;
+    outline-offset: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-links div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 a{
     height: 100px;
     width: 450px;
@@ -17,7 +39,7 @@ a{
     line-height: 90px;
     margin: auto;
     background: linear-gradient( to left, #1b1bd68c, #e024ecba );
-    margin-top: 66px;
+    /* margin-top: 66px; */
     border-radius: 56px;
     border-style: solid;
     border-color: white;
@@ -33,12 +55,12 @@ a{
     float: right;
 }
 .right-ones{
-        height: 1000px;
+    height: 1000px;
     width: 500px;
     float: right;
 }
 .left-ones{
-        height: 1000px;
+    height: 1000px;
     width: 500px;
     float: left;
 }
