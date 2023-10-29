@@ -26,6 +26,22 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.main-links span{
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 5px;
+}
+.main-links span span{
+    height: 100px; width: 100px;
+    border-radius: 50%;
+    background-color: #838BB6;
+    display: flex;justify-content: center; align-items: center;
+    color: whitesmoke;
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+}
+.main-links span span:hover{
+    opacity: 0.6;
+}
 a{
     height: 100px;
     width: 450px;
@@ -45,6 +61,12 @@ a{
     border-color: white;
     border-width: 3px;
 
+    opacity: 1;
+    transition: opacity 1s ease 0s;
+
+}
+a:hover{
+    opacity: 0.6;
 }
 .left-ones a{
     float: left;
